@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'hackerfont'; /* Puedes darle el nombre que desees */
+}
+
+
+@font-face {
+    font-family: 'hackerfont'; /* Puedes darle el nombre que desees */
+    src: url('fonts/Hacked-KerX.ttf') format('truetype'); /* Ajusta la ruta y el formato según tu archivo de fuente */
+    /* Puedes incluir otras propiedades como font-weight y font-style si es necesario */
+  }
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    flex-direction: column;
+    
+}
+ 
+
+    .navbar{
+        align-items: center;
+    }
+    
+
+
+        .principal ul{
+     display: flex;
+     margin-left: auto; /* Mueve la lista a la derecha */
+     margin-right: auto;
+     justify-content: space-between;
+     padding: 2em;
+       }
+    
+
+
+.principal ul li{
+    list-style: none;
+}
+
+
+.principal a{
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.principal ul li a:hover{
+    background-color: rgb(8, 248, 40);
+    color: rgb(0, 0, 0);
+    transition: ease-in .3s;
+}
+
+
+.maintext{
+    display: flex;
+}
+@media screen and (min-width: 768px) {
+.maintext h1{
+  font-size: 10em;
+  color: chartreuse;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+    .maintext h1{
+      font-size: 5em;
+      color: chartreuse;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    }
+
+.maintext span{
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .maintext2{
+    display:flex;
+  }
+
+
+  .maintext2 h2{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+  }
+
+  
+  .loader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #00ff00;
+    border-top: 4px solid transparent;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.maintext3{
+    display: flex;
+}
+  .maintext3 h4{
+    margin-left:auto;
+    margin-right:auto;
+    color: rgb(255, 255, 255);
+  }
