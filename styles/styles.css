@@ -12,7 +12,7 @@ html {
 
 @font-face {
     font-family: 'hackerfont'; /* Puedes darle el nombre que desees */
-    src: url('fonts/Hacked-KerX.ttf') format('truetype'); /* Ajusta la ruta y el formato según tu archivo de fuente */
+    src: url('fonts/Hacked-KerX.ttf') format('truetype'); /* Ajusta la ruta y el formato segÃºn tu archivo de fuente */
     /* Puedes incluir otras propiedades como font-weight y font-style si es necesario */
   }
 
@@ -68,7 +68,7 @@ html {
   color: chartreuse;
   margin-left: auto;
   margin-right: auto;
-  animation: colorChange 5s infinite alternate; /* Aplica la animación */
+  animation: colorChange 5s infinite alternate; /* Aplica la animaciÃ³n */
 }
 }
 
@@ -79,7 +79,7 @@ html {
       color: chartreuse;
       margin-left: auto;
       margin-right: auto;
-      animation: colorChange 5s infinite normal; /* Aplica la animación */
+      animation: colorChange 5s infinite normal; /* Aplica la animaciÃ³n */
       
     }
     }
