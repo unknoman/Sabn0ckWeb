@@ -12,7 +12,7 @@ html {
 
 @font-face {
     font-family: 'hackerfont'; /* Puedes darle el nombre que desees */
-    src: url('fonts/Hacked-KerX.ttf') format('truetype'); /* Ajusta la ruta y el formato segÃºn tu archivo de fuente */
+    src: url('fonts/Hacked-KerX.ttf') format('truetype'); /* Ajusta la ruta y el formato según tu archivo de fuente */
     /* Puedes incluir otras propiedades como font-weight y font-style si es necesario */
   }
 
@@ -68,7 +68,7 @@ html {
   color: chartreuse;
   margin-left: auto;
   margin-right: auto;
-  animation: colorChange 5s infinite alternate; /* Aplica la animaciÃ³n */
+  animation: colorChange 5s infinite alternate; /* Aplica la animación */
 }
 }
 
@@ -79,7 +79,7 @@ html {
       color: chartreuse;
       margin-left: auto;
       margin-right: auto;
-      animation: colorChange 5s infinite normal; /* Aplica la animaciÃ³n */
+      animation: colorChange 5s infinite normal; /* Aplica la animación */
       
     }
     }
@@ -161,7 +161,7 @@ html {
     width: 100vw;
     height: 100vh;
     max-width:100%;  /* added */
-    background-color: #1dff09;
+    background-color: #000000;
 }
 
 pre{
@@ -174,6 +174,7 @@ pre{
 .mainSecundario1 h1{
  margin-left: auto;
  margin-right: auto;
+ color: #01F8FF;
 }
 
 .pSecundario{
@@ -183,6 +184,7 @@ pre{
 .pSecundario p{
   margin-left: auto;
   margin-right: auto;
+  color: #1eff00;
 }
 
 .windows{
@@ -193,13 +195,14 @@ flex-direction: column;
 width: 70vw;
 height: 60vh;
 background-color: #000000a4;
+border: 1px solid #00ff2a;
 }
 
 .wSuperior {
   display: flex;
   width: 100%;
   height: 2.5vh;
-  background-color: #00d9ff;
+  background-color: #00ff2a;
 }
 
 .parrafoX{
@@ -219,11 +222,58 @@ background-color: #000000a4;
 .parrafoxd span{
   font-family: 'Courier New', Courier, monospace;
   margin-left: 1px;
- color: #00a2ff;
+  font-size: large;
+ color: #ffffff;
 }
 
 .parrafoxd p{
   font-family: 'Courier New', Courier, monospace;
   margin-left: 1px;
- color: #00ff37;
+  color: #00ff00;
+}
+
+
+.mainTercero{
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: #000000;
+}
+
+.Tecnologias {
+  display: flex;
+}
+
+.Tecnologias h1{
+  margin-left: auto;
+  margin-right: auto;
+  color: #FF0101;
+}
+
+.contenedorTecnologias{
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); /* Dos filas de igual altura (1fr) cada una */
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho (1fr) cada una */
+  grid-gap: 10px;
+}
+
+
+.tec{
+}
+
+.contenedorProject{
+  display:flex;
+}
+
+.contenedorProject h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tec img {
+  width: 30vh;
+  margin-left: 15vh;
 }
